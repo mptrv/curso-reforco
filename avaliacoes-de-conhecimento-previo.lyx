@@ -1,0 +1,398 @@
+#LyX 1.6.9 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
+\begin_document
+\begin_header
+\textclass scrreprt
+\begin_preamble
+\usepackage{misc}
+\setlength{\textheight}{0.9\textheight}
+\setlength{\footskip}{7\baselineskip}
+
+\newcommand{\enunciado}[1]{#1\bigskip}
+\end_preamble
+\use_default_options true
+\language brazilian
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\paperfontsize 11
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\topmargin 2cm
+\bottommargin 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\author "" 
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Avaliações de Conhecimento Prévio
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+alfaenum
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+Aritmética Elementar
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Adição e Subtração
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+enunciado{Efetuar as operações a seguir.}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\noindent
+\begin_inset Formula $10,83+793,6$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\paragraph_spacing other 7
+\noindent
+\begin_inset Formula $0,5109-7766,1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\paragraph_spacing other 7
+\noindent
+\begin_inset Formula $-83-(44+55)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\paragraph_spacing other 7
+\noindent
+\begin_inset Formula $-10-(10-25)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\paragraph_spacing other 7
+\noindent
+\begin_inset Formula $(100-43)+(37-98-10)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\paragraph_spacing other 7
+\noindent
+\begin_inset Formula $100-(43+37-98)-10$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\paragraph_spacing other 7
+\noindent
+\begin_inset Formula $-[1004,774+(99,01356-88,01356)]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\paragraph_spacing other 7
+\noindent
+\begin_inset Formula $15,1-\{20,2+16,7-[5,55+(11-7,3)]\}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\paragraph_spacing other 7
+\noindent
+\begin_inset Formula $-15,1+\{20,2-[16,7-5,55+(11-7,3)]\}+3$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\paragraph_spacing other 7
+\noindent
+\begin_inset Formula $-(9+11,005)+\{15,1-0,01-[21,08+9+(7-0)]-5,1\}+20$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Multiplicação e Divisão
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+enunciado{Efetuar as operações abaixo.}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $15\cdot100$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\paragraph_spacing other 7
+\noindent
+\begin_inset Formula $0,99756\cdot1000$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\paragraph_spacing other 7
+\noindent
+\begin_inset Formula $\dfrac{876,43}{100}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\paragraph_spacing other 7
+\noindent
+\begin_inset Formula $\dfrac{23,007}{10000}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\paragraph_spacing other 7
+\noindent
+\begin_inset Formula $9,0005\cdot0,001$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\paragraph_spacing other 7
+\noindent
+\begin_inset Formula $\dfrac{0,555}{0,01}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\paragraph_spacing other 7
+\noindent
+\begin_inset Formula $425,9\cdot7,7$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\paragraph_spacing other 7
+\noindent
+\begin_inset Formula $\dfrac{102,03}{63,9}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\paragraph_spacing other 7
+\noindent
+\begin_inset Formula $8\cdot(4+3)/(4-3)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\paragraph_spacing other 7
+\noindent
+\begin_inset Formula $8\cdot4+3/4-3$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\paragraph_spacing other 7
+\noindent
+\begin_inset Formula $8\cdot(4+3/4-3)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\paragraph_spacing other 7
+\noindent
+\begin_inset Formula $11-\{3\,[7/3,5-5\,(10-4)+10\}/3+20$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\paragraph_spacing other 7
+\noindent
+\begin_inset Formula $\dfrac{2\,(5-3)}{\dfrac{(5+3)}{2}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\paragraph_spacing other 7
+\noindent
+\begin_inset Formula $\dfrac{3,0084756\,(25,443-0,040-0,403)}{(35,443-0,443-25)}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\paragraph_spacing other 7
+\noindent
+\begin_inset Formula $1,01\div0,101+1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\paragraph_spacing other 7
+\noindent
+\begin_inset Formula $\{4-3\}\{6-7\}[8-(9+9)]/0,1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\paragraph_spacing other 7
+\noindent
+\begin_inset Formula $10/(4-1)\cdot(5-2)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\paragraph_spacing other 7
+\noindent
+\begin_inset Formula $(17,3-9,7)/(5,5-2,5)\cdot(5,5+2,5)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\paragraph_spacing other 7
+\noindent
+\begin_inset Formula $\dfrac{2}{\frac{3}{2}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\paragraph_spacing other 7
+\noindent
+\begin_inset Formula $\dfrac{11}{4}\div\dfrac{4}{11}\div\dfrac{10}{3}\times\dfrac{3}{10}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Potenciação e Radiciação
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_body
+\end_document

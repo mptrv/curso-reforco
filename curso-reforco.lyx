@@ -1,0 +1,362 @@
+#LyX 1.6.9 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\language brazilian
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\author "" 
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Curso de Reforço
+\end_layout
+
+\begin_layout Section
+Público Alvo
+\end_layout
+
+\begin_layout Standard
+Alunos ingressantes na Escola de Engenharia.
+\end_layout
+
+\begin_layout Section
+Objetivo
+\end_layout
+
+\begin_layout Standard
+Identificar falhas e lacunas de aprendizado dos alunos e desenvolver trabalhos
+ para suprimi-las.
+\end_layout
+
+\begin_layout Section
+Consequencias Esperadas
+\end_layout
+
+\begin_layout Standard
+Melhor rendimento e aproveitamento do curso de Engenharia por parte dos
+ alunos, resultando em profissionais ainda mais capacitados para prestarem,
+ com qualidade, os diferentes serviços da enganharia na sociedade, para
+ o bem de muitos.
+\end_layout
+
+\begin_layout Section
+Metodologia
+\end_layout
+
+\begin_layout Standard
+Utilizar 
+\emph on
+Avaliações de Conhecimentos Prévios 
+\emph default
+para identificar as falhas e lacunas de aprendizado e, a cada identificação,
+ trabalhar os assuntos específicos, por diferentes técnicas e, eventualmente,
+ com atividades específicas para alguns alunos.
+\end_layout
+
+\begin_layout Standard
+Detalhes de cada uma destas partes serão apresentadas nas seções seguintes.
+\end_layout
+
+\begin_layout Section
+Avaliações de Conhecimentos Prévios
+\end_layout
+
+\begin_layout Standard
+Consistem-se de 10 ou 20 questões dissertativas a respeito de um assunto
+ específico ou diversos assuntos combinados.
+\end_layout
+
+\begin_layout Standard
+Sua resolução será prioritariamente individual, mas algumas das avaliações
+ serão em grupo.
+ Assim, ter-se-á a possibilidade de aferir também o entrosamento de grupo.
+\end_layout
+
+\begin_layout Section
+Dinâmicas e Técnicas de Ensino-Aprendizagem
+\end_layout
+
+\begin_layout Standard
+Para a correção das 
+\emph on
+Avaliações de Conhecimentos Prévios
+\emph default
+, haveria diversas possibilidades:
+\end_layout
+
+\begin_layout Enumerate
+Pelo próprio aluno, dadas as referências de resolução que o professor projetará
+ em tela.
+\end_layout
+
+\begin_layout Enumerate
+Por outro aluno, dadas as referências de resolução que o professor projetará
+ em tela.
+\end_layout
+
+\begin_layout Enumerate
+Pelo professor.
+\end_layout
+
+\begin_layout Standard
+A primeira visa que o aluno venha a reconhecer, por si, os erros cometidos
+ e que tome atitudes para não mais repeti-los.
+ Com a segunda, espera-se que o aluno perceba acertos e erros cometidos
+ pelo colega e, dessa forma, auxiliar a consolidação de seus conhecimentos.
+ Ainda, com esta dinâmica, quebra-se um pouco mais a monotonia de uma aula
+ ou prova padrão.
+ A terceira será importante se o professor apontar os erros cometidos pelo
+ aluno e, depois, o aluno observar atentamente e refletir a respeito dos
+ apontamentos.
+ Entretanto, devido à grande quantidade de alunos que poderá haver, esta
+ possibilidade de correção deeverá ser rara, para não sobrecarregar o professor.
+\end_layout
+
+\begin_layout Standard
+Após a correção de cada avaliação, cada aluno totalizaria a quantidade de
+ acertos e anota-la-ia na folha de rosta da própria avaliação.
+ Tais dados seriam, então, lançados num banco-de-dados para posterior levantamen
+to de estatísticas, tanto de turma quanto individual.
+\end_layout
+
+\begin_layout Standard
+Com as estatísticas, será possível estimar se um determinado assunto é bem
+ dominado pela turma ou não, ou, ainda, se há algum aluno, em caso isolado,
+ que apresenta muitas dificuldades naquele assunto enquanto os demais o
+ dominam bem.
+\end_layout
+
+\begin_layout Standard
+Se for detectada dificuldade em grande parte da turma, explanações para
+ todos seriam realizadas pelo professor.
+ Caso a dificuldade seja para um aluno específico, poder-se-á fornecer referênci
+as e exercícios extras a ele para estudo durante uma semana e posterior
+ reavaliação.
+\end_layout
+
+\begin_layout Standard
+Conforme o caso, poder-se-á, ainda, prever o encaminhamento de um aluno
+ ao 
+\emph on
+Projeto Interlocutores.
+\end_layout
+
+\begin_layout Standard
+Em algum momento adequado de cada aula, expor informações em vídeo, de curta
+ duração, a respeito de questões sociais, ambientais e de engenharia.
+ Isto, além de aumentar o dinamismo da aula, também procura despertar o
+ interesse dos alunos para algo que transpassa seus objetivos próprios e
+ dá ainda maior sentido à vida.
+\end_layout
+
+\begin_layout Section
+Formas de Oferta
+\end_layout
+
+\begin_layout Standard
+Duas sugestões:
+\end_layout
+
+\begin_layout Itemize
+Aberta e gratuita, sem pontuação associada a outras disciplinas.
+\end_layout
+
+\begin_layout Itemize
+Como uma disciplina oficial de duração de um semestre.
+ Neste caso, os alunos poderiam opitar por fazer uma 
+\emph on
+avaliação de conhecimentos prévios 
+\begin_inset Quotes eld
+\end_inset
+
+completa
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\emph default
+de forma a conseguir a dispensa desta disciplina caso tenha um resultado
+ excelente na avaliação.
+\end_layout
+
+\begin_layout Section
+Assuntos a Abordar
+\end_layout
+
+\begin_layout Subsection*
+De relação técnica
+\end_layout
+
+\begin_layout Enumerate
+Aritmética elementar, com razoável nível de detalhes:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+adição e subtração;
+\end_layout
+
+\begin_layout Enumerate
+multiplicação e divisão;
+\end_layout
+
+\begin_layout Enumerate
+potenciação e radiciação.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Álgebra elementar, incluindo polinômios:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+adição e subtração;
+\end_layout
+
+\begin_layout Enumerate
+multiplicação e divisão;
+\end_layout
+
+\begin_layout Enumerate
+potenciação e radiciação.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Funções:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+crescentes e decrescentes e raízes, por método gráfico;
+\end_layout
+
+\begin_layout Enumerate
+constantes;
+\end_layout
+
+\begin_layout Enumerate
+do 1º grau;
+\end_layout
+
+\begin_layout Enumerate
+inequações do 1º grau;
+\end_layout
+
+\begin_layout Enumerate
+do 2º grau;
+\end_layout
+
+\begin_layout Enumerate
+modulares; 
+\end_layout
+
+\begin_layout Enumerate
+exponenciais;
+\end_layout
+
+\begin_layout Enumerate
+logaritmicas;
+\end_layout
+
+\begin_layout Enumerate
+trigonométricas.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Trigonometria:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+identidades trigonométricas.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\emph on
+Números complexos.
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Matrizes, determinantes e sistemas lineares.
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Geometria analítica escalar.
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Circunferência.
+\end_layout
+
+\begin_layout Enumerate
+Interpretação de enunciados, utilizando-se geometrias.
+\end_layout
+
+\begin_layout Enumerate
+Exercícios de raciocínio lógico.
+\end_layout
+
+\begin_layout Subsection*
+De relação social, ambiental e de engenharia
+\end_layout
+
+\begin_layout Itemize
+Evitar/controlar poluições.
+\end_layout
+
+\begin_layout Itemize
+Melhorias de aspectos sociais.
+\end_layout
+
+\begin_layout Itemize
+Atividades e depoimentos de ações e projetos em engenharia.
+\end_layout
+
+\end_body
+\end_document
