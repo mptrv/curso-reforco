@@ -4,15 +4,24 @@
 \begin_header
 \textclass scrreprt
 \begin_preamble
+\usepackage[load-configurations=version-1]{siunitx}
 \usepackage{misc}
+\newrefformat{enu}{\textit{\ref{#1}}}
+\newrefformat{que}{Questão~\ref{#1}}
+
 \setlength{\textheight}{0.9\textheight}
 \setlength{\footskip}{7\baselineskip}
 
 \newcommand{\enunciado}[1]{#1\bigskip}
+
+\newcounter{cquestao}
+\newcommand{\questao}{\bigskip\stepcounter{cquestao}\noindent\textbf{Questão \thecquestao. }\nolinebreak}
+\newcommand{\Qquestao}{Questão~\thecquestao}
+\newcommand{\valor}[1]{\emph{(#1)}}
 \end_preamble
 \use_default_options true
 \language brazilian
-\inputencoding auto
+\inputencoding utf8
 \font_roman default
 \font_sans default
 \font_typewriter default
@@ -200,7 +209,13 @@ status open
 
 
 \backslash
-enunciado{Efetuar as operações abaixo.}
+enunciado{Efetuar as operações abaixo.
+ Se o resultado possuir parte fracionária, expresse-o com 3 casas decimais.
+ O resultado dos itens 
+\backslash
+prettyref{enu:racional-um} e 
+\backslash
+prettyref{enu:racional-dois} deverão ser expressos na forma racional.}
 \end_layout
 
 \end_inset
@@ -308,7 +323,7 @@ enunciado{Efetuar as operações abaixo.}
 \begin_layout Enumerate
 \paragraph_spacing other 7
 \noindent
-\begin_inset Formula $11-\{3\,[7/3,5-5\,(10-4)+10\}/3+20$
+\begin_inset Formula $11-\{3\,[7/3,5-5\,(10-4)]+10\}/3+20$
 \end_inset
 
 
@@ -317,7 +332,7 @@ enunciado{Efetuar as operações abaixo.}
 \begin_layout Enumerate
 \paragraph_spacing other 7
 \noindent
-\begin_inset Formula $\dfrac{2\,(5-3)}{\dfrac{(5+3)}{2}}$
+\begin_inset Formula $\dfrac{3\,(5-3)}{\dfrac{(5+3)}{3}}$
 \end_inset
 
 
@@ -371,16 +386,29 @@ enunciado{Efetuar as operações abaixo.}
 \begin_layout Enumerate
 \paragraph_spacing other 7
 \noindent
-\begin_inset Formula $\dfrac{2}{\frac{3}{2}}$
+\begin_inset Formula $\dfrac{11}{4}\div\dfrac{4}{11}\div\dfrac{10}{3}\times\dfrac{3}{10}$
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:racional-um"
+
 \end_inset
 
 
 \end_layout
 
 \begin_layout Enumerate
-\paragraph_spacing other 7
 \noindent
-\begin_inset Formula $\dfrac{11}{4}\div\dfrac{4}{11}\div\dfrac{10}{3}\times\dfrac{3}{10}$
+\begin_inset Formula $\dfrac{11}{4}+\dfrac{4}{11}-\dfrac{10}{3}+\dfrac{3}{10}-\dfrac{\frac{2}{3}}{2}$
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "enu:racional-dois"
+
 \end_inset
 
 
@@ -390,7 +418,912 @@ enunciado{Efetuar as operações abaixo.}
 Potenciação e Radiciação
 \end_layout
 
+\begin_layout Chapter
+De Vestibulares
+\end_layout
+
 \begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+questao
+\end_layout
+
+\end_inset
+
+ Se 
+\begin_inset Formula $a=1+j2$
+\end_inset
+
+, 
+\begin_inset Formula $b=2-j$
+\end_inset
+
+ e 
+\begin_inset Formula $\dfrac{a}{b}+\dfrac{b}{c}=0$
+\end_inset
+
+, então qual o valor do número complexo 
+\begin_inset Formula $c$
+\end_inset
+
+ ?
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+questao
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "que:chapa-metalica"
+
+\end_inset
+
+ Uma chapa metálica de formato triangular (triângulo retângulo) tem inicialmente
+ as medidas indicadas na 
+\begin_inset CommandInset ref
+LatexCommand prettyref
+reference "fig:chapa-metalica"
+
+\end_inset
+
+ e deverá sobrer um corte reto (paralelo ao lado que corresponde à hipotenusa
+ do triângulo), representado pela linha fina, de modo que sua área seja
+ reduzida à metade.
+ Quais serão as novas medidas 
+\begin_inset Formula $x$
+\end_inset
+
+ e 
+\begin_inset Formula $y$
+\end_inset
+
+ ?
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setlength{
+\backslash
+unitlength}{0.5cm}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{picture}(9, 7)(-1,-1)
+\end_layout
+
+\begin_layout Plain Layout
+
+% Desenhos.
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+thicklines
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+put(0,0){
+\backslash
+line(1,0){8}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+put(8,0){
+\backslash
+line(0,1){6}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+put(0,0){
+\backslash
+line(4,3){8}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+thinlines
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+put(2,0){
+\backslash
+line(4,3){6}}
+\end_layout
+
+\begin_layout Plain Layout
+
+%Textos.
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+put(5,0.3){$x$}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+put(7.4,2){$y$}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+put(2.7,-0.5){
+\backslash
+vector(-1,0){2.7}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+put(5,-0.5){
+\backslash
+vector(1,0){3}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+put(3,-0.9){$60~
+\backslash
+centi
+\backslash
+metre$}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+put(8.5,3.8){
+\backslash
+vector(0,1){2.2}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+put(8.5,2.2){
+\backslash
+vector(0,-1){2.2}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+put(8.3,2.7){$40~
+\backslash
+centi
+\backslash
+metre$}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{picture}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Da 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+Qquestao
+\end_layout
+
+\end_inset
+
+.
+ 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:chapa-metalica"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+questao
+\end_layout
+
+\end_inset
+
+ Um líquido que ocupa uma altura de 10 
+
+\begin_inset Formula $\centi\metre$
+\end_inset
+
+
+\lang brazilian
+ num determinado recipiente cilíndrico será transferido para outro recipiente,
+ também cilíndrico, com diâmetro 2 vezes maior que o primeiro.
+ Qual será a altura ocupada pelo líquido nesse segundo recipiente? 
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+questao
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "que:trevo"
+
+\end_inset
+
+ Em cada face de um tetraedro regular desenhou-se um trevo de 3 folhas estilizad
+o, conforme indicado na 
+\begin_inset CommandInset ref
+LatexCommand prettyref
+reference "fig:trevo"
+
+\end_inset
+
+.
+ Se a medida da aresta do tetraedro é 
+\begin_inset Formula $t$
+\end_inset
+
+, qual a soma das áreas de todas as folhas de todos os trevos desenhados?
+ Nota: as três folhas do trevo têm dimensões iguais.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figuras/fig-trevo-estilizado.ps
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Da 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+Qquestao
+\end_layout
+
+\end_inset
+
+.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:trevo"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+questao
+\end_layout
+
+\end_inset
+
+ Se 
+\begin_inset Formula $f(x)=(Ax+B)\, cos(2x)$
+\end_inset
+
+, 
+\begin_inset Formula $f(0)=1$
+\end_inset
+
+ e 
+\begin_inset Formula $f(\pi/2)=1$
+\end_inset
+
+, então quais são os valores de 
+\begin_inset Formula $A$
+\end_inset
+
+ e 
+\begin_inset Formula $B$
+\end_inset
+
+ ?
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+questao
+\end_layout
+
+\end_inset
+
+ A matriz 
+\begin_inset Formula $X$
+\end_inset
+
+ possui 3 linhas e 300 colunas.
+ Na primeira linha, os componentes das colunas descritas por 
+\begin_inset Formula $c=1+12k$
+\end_inset
+
+, 
+\begin_inset Formula $k\in\mathbb{N}$
+\end_inset
+
+, são iguais a um e os outros são iguais a zero.
+ Na segunda linha, os componentes das colunas descritas por 
+\begin_inset Formula $c=1+8k$
+\end_inset
+
+, 
+\begin_inset Formula $k\in\mathbb{N}$
+\end_inset
+
+, são iguais a um e os outros são iguais a zero.
+ Na terceira linha, os componentes das colunas 
+\begin_inset Formula $c=1+18k$
+\end_inset
+
+, 
+\begin_inset Formula $k\in\mathbb{N}$
+\end_inset
+
+, são iguais a um e os outros são iguais a zero.
+ Quantas das 300 colunas possuem os 3 componentes iguais a um?
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+questao
+\end_layout
+
+\end_inset
+
+Sobre a função 
+\begin_inset Formula $f(x)=|senx|$
+\end_inset
+
+, é válido afirmar-se que:
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $f(x)=f(2x)$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $f(-x)=-f(x)$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $f(x)=f(x+\pi)$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $f(x)=f(x+\pi/2)$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $f(x)=f(x-\pi/2)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ainda, justifique graficamente a resposta.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+questao
+\end_layout
+
+\end_inset
+
+ Qual deve ser o raio da cirunferência com centro no ponto 
+\begin_inset Formula $O(0,0)$
+\end_inset
+
+ para que a reta 
+\begin_inset Formula $x-2y-10=0$
+\end_inset
+
+ seja tangente a essa circunferência?
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+questao
+\end_layout
+
+\end_inset
+
+ No momento em que a incidência dos raios solares ocorre segundo um ângulo
+ de 30 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+degree
+\end_layout
+
+\end_inset
+
+, a partir da linha do horizonte, a sombra projetada no solo (horizontal)
+ por um poste tem comprimento 
+\begin_inset Formula $x$
+\end_inset
+
+.
+ No momento em que a incidência ocorre segundo um ângulo de 60 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+degree
+\end_layout
+
+\end_inset
+
+, o comprimento da sombra é 
+\begin_inset Formula $y$
+\end_inset
+
+.
+ Se 
+\begin_inset Formula $x-y=2\metre$
+\end_inset
+
+, então quanto mede a altura do poste?
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+questao
+\end_layout
+
+\end_inset
+
+ Três circunferências de raio 
+\begin_inset Formula $r$
+\end_inset
+
+ estão dispostas no interior de outra circunferência de raio 
+\begin_inset Formula $R$
+\end_inset
+
+, conforme a 
+\begin_inset CommandInset ref
+LatexCommand prettyref
+reference "fig:circunferencias"
+
+\end_inset
+
+.
+ Qual o valor da razão 
+\begin_inset Formula $K=\frac{R}{r}$
+\end_inset
+
+ ?
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figuras/fig-circunferencias.ps
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Da 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+Qquestao
+\end_layout
+
+\end_inset
+
+.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:circunferencias"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+questao
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+questao
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+questao
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+questao
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+questao
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+questao
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+questao
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+questao
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+questao
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+questao
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+questao
+\end_layout
+
+\end_inset
+
 
 \end_layout
 
