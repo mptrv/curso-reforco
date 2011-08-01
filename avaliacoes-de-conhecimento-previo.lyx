@@ -70,6 +70,669 @@ status open
 
 \begin_layout Plain Layout
 
+% DEFINIÇÕES USADAS NAS FÓRMULAS.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand{
+\backslash
+sin}{
+\backslash
+ensuremath{
+\backslash
+mathrm{sen
+\backslash
+,}}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand{
+\backslash
+tan}{
+\backslash
+ensuremath{
+\backslash
+mathrm{tg
+\backslash
+,}}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand{
+\backslash
+csc}{
+\backslash
+ensuremath{
+\backslash
+mathrm{cossec
+\backslash
+,}}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand{
+\backslash
+tanh}{
+\backslash
+ensuremath{
+\backslash
+mathrm{tgh
+\backslash
+,}}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand{
+\backslash
+arcsin}{
+\backslash
+ensuremath{
+\backslash
+mathrm{arcsen
+\backslash
+,}}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand{
+\backslash
+arctan}{
+\backslash
+ensuremath{
+\backslash
+mathrm{arctg
+\backslash
+,}}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand{
+\backslash
+arcsec}{
+\backslash
+ensuremath{
+\backslash
+mathrm{arcsec
+\backslash
+,}}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand{
+\backslash
+arccot}{
+\backslash
+ensuremath{
+\backslash
+mathrm{arccotg
+\backslash
+,}}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand{
+\backslash
+arccsc}{
+\backslash
+ensuremath{
+\backslash
+mathrm{arccossec
+\backslash
+,}}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand{
+\backslash
+sech}{
+\backslash
+ensuremath{
+\backslash
+mathrm{sech
+\backslash
+,}}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand{
+\backslash
+csch}{
+\backslash
+ensuremath{
+\backslash
+mathrm{cossech
+\backslash
+,}}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand{
+\backslash
+cotanh}{
+\backslash
+ensuremath{
+\backslash
+mathrm{cotg
+\backslash
+,}}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+sisetup{per=slash,unitsep=tightcdot}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+newunit{
+\backslash
+ampereesp}{
+\backslash
+ampere{}
+\backslash
+mathrm{esp}}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\vt}[1]{\vec{#1}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\vti}[2][]{\vt{#2}_{#1}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\aind}[1]{\vti[#1]{\mathrm{a}}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\pe}[2]{#1\cdot#2}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\pev}[2]{\vt{#1}\cdot\vt{#2}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\pv}[2]{#1\times#2}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\pvv}[2]{\vt{#1}\times\vt{#2}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\dvg}[1]{\pe{\nabla}{#1}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\grd}[1]{\nabla#1}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\rot}[1]{\pv{\nabla}{#1}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\lpl}[1]{\nabla^{2}#1}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\re}[1]{\mathrm{Re}[#1]}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\im}[1]{\mathrm{Im}[#1]}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\delx}{\partial x}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\dely}{\partial y}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\delz}{\partial z}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\delt}{\partial t}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\delr}{\partial r}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\delrh}{\partial\rho}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\delph}{\partial\phi}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\delth}{\partial\theta}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\d}{\mathrm{d}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\ax}{\aind x}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\ay}{\aind y}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\az}{\aind z}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\ar}{\aind r}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\arh}{\aind{\rho}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\aph}{\aind{\phi}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\ath}{\aind{\theta}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\aR}{\aind R}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\aN}{\aind N}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\aud}{\aind{12}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\dL}{\d\vt{\mathrm{L}}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\dS}{\d\vt{\mathrm{S}}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\dSe}{\d S}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\dv}{\d v}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\du}{\d u}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\dx}{\d x}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\dy}{\d y}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\dz}{\d z}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\dr}{\d r}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\drh}{\d\rho}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\dth}{\d\theta}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\dph}{\d\phi}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\dQ}{\d Q}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\dV}{\d V}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\rhs}{\rho_{\mathrm{s}}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\rhv}{\rho_{v}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\Vfem}{V_{\mathrm{fem}}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\ca}{\mathrm{\mathrm{a}}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\cb}{\mathrm{\mathrm{b}}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\cc}{\mathrm{\mathrm{c}}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\cC}{\mathrm{C}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\cm}{\mathrm{m}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\cn}{\mathrm{\mathrm{n}}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
 
 \backslash
 alfaenum
@@ -467,13 +1130,6 @@ questao
 
 \end_inset
 
-
-\begin_inset CommandInset label
-LatexCommand label
-name "que:chapa-metalica"
-
-\end_inset
-
  Uma chapa metálica de formato triangular (triângulo retângulo) tem inicialmente
  as medidas indicadas na 
 \begin_inset CommandInset ref
@@ -482,7 +1138,7 @@ reference "fig:chapa-metalica"
 
 \end_inset
 
- e deverá sobrer um corte reto (paralelo ao lado que corresponde à hipotenusa
+ e deverá sofrer um corte reto (paralelo ao lado que corresponde à hipotenusa
  do triângulo), representado pela linha fina, de modo que sua área seja
  reduzida à metade.
  Quais serão as novas medidas 
@@ -725,12 +1381,9 @@ questao
 \end_inset
 
  Um líquido que ocupa uma altura de 10 
-
 \begin_inset Formula $\centi\metre$
 \end_inset
 
-
-\lang brazilian
  num determinado recipiente cilíndrico será transferido para outro recipiente,
  também cilíndrico, com diâmetro 2 vezes maior que o primeiro.
  Qual será a altura ocupada pelo líquido nesse segundo recipiente? 
@@ -746,13 +1399,6 @@ status open
 \backslash
 questao
 \end_layout
-
-\end_inset
-
-
-\begin_inset CommandInset label
-LatexCommand label
-name "que:trevo"
 
 \end_inset
 
@@ -846,7 +1492,7 @@ questao
 \end_inset
 
  Se 
-\begin_inset Formula $f(x)=(Ax+B)\, cos(2x)$
+\begin_inset Formula $f(x)=(\mathrm{A}x+\mathrm{B})\,\cos(2x)$
 \end_inset
 
 , 
@@ -858,11 +1504,11 @@ questao
 \end_inset
 
 , então quais são os valores de 
-\begin_inset Formula $A$
+\begin_inset Formula $\mathrm{A}$
 \end_inset
 
  e 
-\begin_inset Formula $B$
+\begin_inset Formula $\mathrm{B}$
 \end_inset
 
  ?
@@ -929,8 +1575,8 @@ questao
 
 \end_inset
 
-Sobre a função 
-\begin_inset Formula $f(x)=|senx|$
+ Sobre a função 
+\begin_inset Formula $f(x)=|\sin x|$
 \end_inset
 
 , é válido afirmar-se que:
@@ -1013,36 +1659,21 @@ questao
 \end_inset
 
  No momento em que a incidência dos raios solares ocorre segundo um ângulo
- de 30 
-\begin_inset ERT
-status collapsed
+ de 30
 
-\begin_layout Plain Layout
-
-
-\backslash
-degree
-\end_layout
-
+\begin_inset Formula $\degree$
 \end_inset
 
+
+\lang brazilian
 , a partir da linha do horizonte, a sombra projetada no solo (horizontal)
  por um poste tem comprimento 
 \begin_inset Formula $x$
 \end_inset
 
 .
- No momento em que a incidência ocorre segundo um ângulo de 60 
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-
-\backslash
-degree
-\end_layout
-
+ No momento em que a incidência ocorre segundo um ângulo de 60
+\begin_inset Formula $\degree$
 \end_inset
 
 , o comprimento da sombra é 
@@ -1051,7 +1682,7 @@ degree
 
 .
  Se 
-\begin_inset Formula $x-y=2\metre$
+\begin_inset Formula $x-y=2\,\metre$
 \end_inset
 
 , então quanto mede a altura do poste?
@@ -1164,10 +1795,51 @@ questao
 
 \end_inset
 
+ Na 
+\begin_inset CommandInset ref
+LatexCommand prettyref
+reference "fig:triangulo-retangulo"
 
+\end_inset
+
+, o triângulo ABC é retângulo em C e seus catetos medem 
+\begin_inset Formula $a$
+\end_inset
+
+ e 
+\begin_inset Formula $b$
+\end_inset
+
+.
+ Determine 
+\begin_inset Formula $x=\mathrm{\overline{CM}}$
+\end_inset
+
+ de modo que o retângulo CMNP, inscrito nesse triângulo, tenha área máxima.
 \end_layout
 
 \begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figuras/fig-triangulo-retangulo.ps
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Da 
 \begin_inset ERT
 status open
 
@@ -1175,7 +1847,28 @@ status open
 
 
 \backslash
-questao
+Qquestao
+\end_layout
+
+\end_inset
+
+.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:triangulo-retangulo"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \end_inset
@@ -1196,7 +1889,14 @@ questao
 
 \end_inset
 
+ Com centro no diâmetro de uma circunferência de raio 8 
+\begin_inset Formula $\centi\metre$
+\end_inset
 
+, constroem-se outras duas circunferências tangentes a ela e tangentes extername
+nte entre si.
+ Calcule os raios dessas duas circunferências para que a área limitada pelas
+ três circunferências seja máxima.
 \end_layout
 
 \begin_layout Standard
@@ -1208,6 +1908,187 @@ status open
 
 \backslash
 questao
+\end_layout
+
+\end_inset
+
+ Com folhas de cartolina quadradas de lado 6 
+\begin_inset Formula $\centi\metre$
+\end_inset
+
+, pretende-se fabricar caixas sem tampa.
+ Para isso, deve-se recortar, dos quatro cantos da folha, quadrados de lado
+ 
+\begin_inset Formula $x$
+\end_inset
+
+.
+ Calcule 
+\begin_inset Formula $x$
+\end_inset
+
+ para que o volume da caixa assim obtida seja máximo.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+questao
+\end_layout
+
+\end_inset
+
+ Em uma bicicleta com roda de 1 
+\begin_inset Formula $\metre$
+\end_inset
+
+ de diâmetro, um ciclista necessita dar uma pedalada para que a roda gire
+ duas voltas.
+ Quantas pedaladas por minuto deve dar o ciclista para manter a bicicleta
+ com uma velocidade constante de 6
+\begin_inset Formula $\,\pi$
+\end_inset
+
+ 
+\begin_inset Formula $\kilo\metre\per\hour$
+\end_inset
+
+?
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+questao
+\end_layout
+
+\end_inset
+
+ Para um móvel que descreve trajetória circular com velocidade constante,
+ pode-se afirmar que:
+\end_layout
+
+\begin_layout Enumerate
+O valor da aceleração é nulo; 
+\end_layout
+
+\begin_layout Enumerate
+o valor da aceleração é constante;
+\end_layout
+
+\begin_layout Enumerate
+o valor da velocidade varia em função do tempo;
+\end_layout
+
+\begin_layout Enumerate
+o deslocamento é nulo para qualquer intervalo de tempo;
+\end_layout
+
+\begin_layout Enumerate
+o valor da aceleração varia em função do tempo.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+questao
+\end_layout
+
+\end_inset
+
+ Sobre o carrinho de massa 10 
+
+\begin_inset Formula $\kilo\gram$
+\end_inset
+
+ 
+\lang brazilian
+atua uma força 
+\begin_inset Formula $F$
+\end_inset
+
+ horizontal que varia com o tempo de acordo com o gráfico da 
+\begin_inset CommandInset ref
+LatexCommand prettyref
+reference "fig:forcaxtempo"
+
+\end_inset
+
+.
+ Sabe-se que, inicialmente, o móvel está em repouso.
+ Qual é a velocidade do carrinho para 
+\begin_inset Formula $t=10\,\second$
+\end_inset
+
+? Traçar o gráfico da velocidade em função do tempo.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figuras/fig-forcaxtempo.ps
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Da 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+Qquestao
+\end_layout
+
+\end_inset
+
+.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:forcaxtempo"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \end_inset
@@ -1228,7 +2109,37 @@ questao
 
 \end_inset
 
+ Um tambor de massa 50 
+\begin_inset Formula $\kilo\gram$
+\end_inset
 
+ está cheio com 200 
+\begin_inset Formula $\litre$
+\end_inset
+
+ de água.
+ O tambor é içado por uma força 
+\begin_inset Formula $\vec{F}$
+\end_inset
+
+ a 20 
+\begin_inset Formula $\metre$
+\end_inset
+
+ de altura.
+ A água escoa uniformemente através de um orifício, de modo que o tambor
+ chega à parte superior completamente vazio.
+ Sabendo-se que a velocidade de subida é constante, determinar o trabalho
+ da força 
+\begin_inset Formula $\vec{F}$
+\end_inset
+
+ do solo até a altura de 20 
+\begin_inset Formula $\metre$
+\end_inset
+
+.
+ Fazer uso de análise gráfica.
 \end_layout
 
 \begin_layout Standard
@@ -1240,6 +2151,116 @@ status open
 
 \backslash
 questao
+\end_layout
+
+\end_inset
+
+ Conforme esquematizado na 
+\begin_inset CommandInset ref
+LatexCommand prettyref
+reference "fig:corpo-canaleta"
+
+\end_inset
+
+, um corpo de massa 
+\begin_inset Formula $m$
+\end_inset
+
+, dotado de velocidade 
+\begin_inset Formula $v$
+\end_inset
+
+ em um ponto A, percorre a canaleta lisa ABC, comprimindo a mola em C.
+ Sabendo-se que 
+\begin_inset Formula $h_{A}>h_{C}$
+\end_inset
+
+, podemos afirmar que:
+\end_layout
+
+\begin_layout Enumerate
+O corpo retornará a uma altura 
+\begin_inset Formula $h>h_{A}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout Enumerate
+o corpo retornará a uma altura 
+\begin_inset Formula $h<h_{A}$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout Enumerate
+o corpo retornará somente até o ponto B;
+\end_layout
+
+\begin_layout Enumerate
+só podemos afirmar alguma coisa se conhecermos a massa 
+\begin_inset Formula $m$
+\end_inset
+
+;
+\end_layout
+
+\begin_layout Enumerate
+nada se pode afirmar.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figuras/fig-corpo-canaleta.ps
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Da 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+Qquestao
+\end_layout
+
+\end_inset
+
+.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:corpo-canaleta"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \end_inset
@@ -1260,10 +2281,55 @@ questao
 
 \end_inset
 
+ No circuito da 
+\begin_inset CommandInset ref
+LatexCommand prettyref
+reference "fig:circuito"
 
+\end_inset
+
+, determine 
+\begin_inset Formula $R_{L}$
+\end_inset
+
+ para que haja a 
+\emph on
+Máxima Transferência de Potência
+\emph default
+ da fonte para 
+\begin_inset Formula $R_{L}$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figuras/fig-circuito.ps
+	width 3cm
+	scaleBeforeRotation
+	BoundingBox 59bp 58bp 487bp 756bp
+	clip
+	rotateAngle -90
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Da 
 \begin_inset ERT
 status open
 
@@ -1271,7 +2337,28 @@ status open
 
 
 \backslash
-questao
+Qquestao
+\end_layout
+
+\end_inset
+
+.
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:circuito"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \end_inset
@@ -1292,7 +2379,32 @@ questao
 
 \end_inset
 
+ As cargas 
+\begin_inset Formula $Q_{1}=9\,\micro\coulomb$
+\end_inset
 
+ e 
+\begin_inset Formula $Q_{3}=25\,\micro\coulomb$
+\end_inset
+
+ estão fixas nos pontos A e B, distantes de 8 
+\begin_inset Formula $\centi\metre$
+\end_inset
+
+ entre si.
+ Sabe-se que a carga 
+\begin_inset Formula $Q_{2}=2\,\micro\coulomb$
+\end_inset
+
+ está em equilíbrio sob a ação de forças elétricas somente numa posição
+ colinear em relação às outras duas cargas.
+ Pede-se traçar o esboço do sistema em equilíbrio e calcular a distância
+ entre 
+\begin_inset Formula $Q_{1}$
+\end_inset
+
+ e o ponto A nesta situação.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -1308,19 +2420,34 @@ questao
 
 \end_inset
 
+ A intensidade do campo magnético produzido no interior de um solenoide
+ muito comprido, percorrido por corrente, depende basicamente:
+\end_layout
 
+\begin_layout Enumerate
+só do número de espiras do solenoide 
+\end_layout
+
+\begin_layout Enumerate
+só da intensidade da corrente 
+\end_layout
+
+\begin_layout Enumerate
+do diâmetro interno do solenoide 
+\end_layout
+
+\begin_layout Enumerate
+do número de espiras por unidade de comprimento e da intensidade da corrente
+ 
+\end_layout
+
+\begin_layout Enumerate
+do comprimento do solenoide
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-questao
-\end_layout
+\begin_inset CommandInset nomencl_print
+LatexCommand printnomenclature
 
 \end_inset
 
