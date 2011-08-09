@@ -44,6 +44,13 @@
 
 \begin_layout Title
 Curso de Reforço
+\begin_inset Newline newline
+\end_inset
+
+
+\size footnotesize
+v.
+ 0.0.0-alfa0
 \end_layout
 
 \begin_layout Section
@@ -182,6 +189,35 @@ Em algum momento adequado de cada aula, expor informações em vídeo, de curta
  Isto, além de aumentar o dinamismo da aula, também procura despertar o
  interesse dos alunos para algo que transpassa seus objetivos próprios e
  dá ainda maior sentido à vida.
+\end_layout
+
+\begin_layout Subsection*
+Interiorização para o aprendizado
+\end_layout
+
+\begin_layout Standard
+Algumas propostas a fim de orientar o aluno a interiorizar o aprendizado:
+\end_layout
+
+\begin_layout Itemize
+Propostas de conduta para reflexão pequena com olhos fechados:
+\end_layout
+
+\begin_layout Quotation
+
+\emph on
+\begin_inset Quotes eld
+\end_inset
+
+Vocês querem experimentar?
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Ouvir o coração.
 \end_layout
 
 \begin_layout Section
@@ -354,8 +390,39 @@ Evitar/controlar poluições.
 Melhorias de aspectos sociais.
 \end_layout
 
+\begin_deeper
+\begin_layout Itemize
+Motivação:
+\end_layout
+
+\end_deeper
+\begin_layout Quotation
+
+\emph on
+\begin_inset Quotes eld
+\end_inset
+
+Sozinhos, não, mas juntos podemos contribuir para uma vida ainda melhor.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
 \begin_layout Itemize
 Atividades e depoimentos de ações e projetos em engenharia.
+\end_layout
+
+\begin_layout Subsection*
+Complementos
+\end_layout
+
+\begin_layout Itemize
+Uso de calculadoras científicas e alfa-numéricas.
+\end_layout
+
+\begin_layout Itemize
+Como fazer uma prova com consulta.
 \end_layout
 
 \end_body

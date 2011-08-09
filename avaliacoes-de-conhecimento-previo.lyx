@@ -62,6 +62,14 @@
 
 \begin_layout Title
 Avaliações de Conhecimento Prévio
+\begin_inset Newline newline
+\end_inset
+
+
+\series medium
+\size footnotesize
+v.
+ 0.0.0-alfa0
 \end_layout
 
 \begin_layout Standard
@@ -289,7 +297,7 @@ mathrm{esp}}
 
 \begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\vt}[1]{\vec{#1}}
+\renewcommand{\vt}[1]{\vec{#1}}
 \end_inset
 
 
@@ -297,7 +305,7 @@ mathrm{esp}}
 
 \begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\vti}[2][]{\vt{#2}_{#1}}
+\renewcommand{\vti}[2][]{\vt{#2}_{#1}}
 \end_inset
 
 
@@ -305,7 +313,7 @@ mathrm{esp}}
 
 \begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\aind}[1]{\vti[#1]{\mathrm{a}}}
+\renewcommand{\aind}[1]{\vti[#1]{\mathrm{a}}}
 \end_inset
 
 
@@ -313,7 +321,7 @@ mathrm{esp}}
 
 \begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\pe}[2]{#1\cdot#2}
+\renewcommand{\pe}[2]{#1\cdot#2}
 \end_inset
 
 
@@ -321,7 +329,7 @@ mathrm{esp}}
 
 \begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\pev}[2]{\vt{#1}\cdot\vt{#2}}
+\renewcommand{\pev}[2]{\vt{#1}\cdot\vt{#2}}
 \end_inset
 
 
@@ -1660,12 +1668,9 @@ questao
 
  No momento em que a incidência dos raios solares ocorre segundo um ângulo
  de 30
-
 \begin_inset Formula $\degree$
 \end_inset
 
-
-\lang brazilian
 , a partir da linha do horizonte, a sombra projetada no solo (horizontal)
  por um poste tem comprimento 
 \begin_inset Formula $x$
@@ -2012,13 +2017,10 @@ questao
 \end_inset
 
  Sobre o carrinho de massa 10 
-
 \begin_inset Formula $\kilo\gram$
 \end_inset
 
- 
-\lang brazilian
-atua uma força 
+ atua uma força 
 \begin_inset Formula $F$
 \end_inset
 
@@ -2443,15 +2445,6 @@ do número de espiras por unidade de comprimento e da intensidade da corrente
 
 \begin_layout Enumerate
 do comprimento do solenoide
-\end_layout
-
-\begin_layout Standard
-\begin_inset CommandInset nomencl_print
-LatexCommand printnomenclature
-
-\end_inset
-
-
 \end_layout
 
 \end_body
