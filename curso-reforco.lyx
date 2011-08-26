@@ -1,21 +1,29 @@
-#LyX 1.6.9 created this file. For more info see http://www.lyx.org/
-\lyxformat 345
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
 \begin_document
 \begin_header
 \textclass article
 \use_default_options true
+\maintain_unincluded_children false
 \language brazilian
+\language_package default
 \inputencoding auto
+\fontencoding global
 \font_roman default
 \font_sans default
 \font_typewriter default
 \font_default_family default
+\use_non_tex_fonts false
 \font_sc false
 \font_osf false
 \font_sf_scale 100
 \font_tt_scale 100
 
 \graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
 \paperfontsize default
 \spacing single
 \use_hyperref false
@@ -23,21 +31,31 @@
 \use_geometry false
 \use_amsmath 1
 \use_esint 1
+\use_mhchem 1
+\use_mathdots 1
 \cite_engine basic
 \use_bibtopic false
+\use_indices false
 \paperorientation portrait
+\suppress_date false
+\use_refstyle 0
+\index Índice
+\shortcut idx
+\color #008000
+\end_index
 \secnumdepth 3
 \tocdepth 3
-\paragraph_separation indent
-\defskip medskip
+\paragraph_separation skip
+\defskip smallskip
 \quotes_language english
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
 \tracking_changes false
 \output_changes false
-\author "" 
-\author "" 
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
 \end_header
 
 \begin_body
@@ -79,6 +97,36 @@ Melhor rendimento e aproveitamento do curso de Engenharia por parte dos
  alunos, resultando em profissionais ainda mais capacitados para prestarem,
  com qualidade, os diferentes serviços da enganharia na sociedade, para
  o bem de muitos.
+\end_layout
+
+\begin_layout Section
+Formas de Oferta
+\end_layout
+
+\begin_layout Standard
+Duas sugestões:
+\end_layout
+
+\begin_layout Itemize
+Aberta e gratuita, sem pontuação associada a outras disciplinas.
+\end_layout
+
+\begin_layout Itemize
+Como uma disciplina oficial de duração de um semestre.
+ Neste caso, os alunos poderiam opitar por fazer uma 
+\emph on
+avaliação de conhecimentos prévios 
+\begin_inset Quotes eld
+\end_inset
+
+completa
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\emph default
+de forma a conseguir a dispensa desta disciplina caso tenha um resultado
+ excelente na avaliação.
 \end_layout
 
 \begin_layout Section
@@ -144,19 +192,19 @@ Pelo professor.
 A primeira visa que o aluno venha a reconhecer, por si, os erros cometidos
  e que tome atitudes para não mais repeti-los.
  Com a segunda, espera-se que o aluno perceba acertos e erros cometidos
- pelo colega e, dessa forma, auxiliar a consolidação de seus conhecimentos.
+ pelo colega e, dessa forma, auxiliá-lo na consolidação de seus conhecimentos.
  Ainda, com esta dinâmica, quebra-se um pouco mais a monotonia de uma aula
  ou prova padrão.
  A terceira será importante se o professor apontar os erros cometidos pelo
  aluno e, depois, o aluno observar atentamente e refletir a respeito dos
  apontamentos.
  Entretanto, devido à grande quantidade de alunos que poderá haver, esta
- possibilidade de correção deeverá ser rara, para não sobrecarregar o professor.
+ possibilidade de correção deverá ser rara, para não sobrecarregar o professor.
 \end_layout
 
 \begin_layout Standard
 Após a correção de cada avaliação, cada aluno totalizaria a quantidade de
- acertos e anota-la-ia na folha de rosta da própria avaliação.
+ acertos e anotá-la-ia na folha de rosto da própria avaliação.
  Tais dados seriam, então, lançados num banco-de-dados para posterior levantamen
 to de estatísticas, tanto de turma quanto individual.
 \end_layout
@@ -191,63 +239,20 @@ Em algum momento adequado de cada aula, expor informações em vídeo, de curta
  dá ainda maior sentido à vida.
 \end_layout
 
-\begin_layout Subsection*
-Interiorização para o aprendizado
-\end_layout
-
 \begin_layout Standard
-Algumas propostas a fim de orientar o aluno a interiorizar o aprendizado:
-\end_layout
-
-\begin_layout Itemize
-Propostas de conduta para reflexão pequena com olhos fechados:
-\end_layout
-
-\begin_layout Quotation
-
-\emph on
-\begin_inset Quotes eld
-\end_inset
-
-Vocês querem experimentar?
-\begin_inset Quotes erd
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Ouvir o coração.
-\end_layout
-
-\begin_layout Section
-Formas de Oferta
-\end_layout
-
-\begin_layout Standard
-Duas sugestões:
-\end_layout
-
-\begin_layout Itemize
-Aberta e gratuita, sem pontuação associada a outras disciplinas.
-\end_layout
-
-\begin_layout Itemize
-Como uma disciplina oficial de duração de um semestre.
- Neste caso, os alunos poderiam opitar por fazer uma 
-\emph on
-avaliação de conhecimentos prévios 
-\begin_inset Quotes eld
-\end_inset
-
-completa
-\begin_inset Quotes erd
-\end_inset
-
+Algumas frases de orientação aos professores e aos alunos seguem na seção
  
+\emph on
+
+\begin_inset CommandInset ref
+LatexCommand nameref
+reference "sec:Frases-de-Orientação"
+
+\end_inset
+
+
 \emph default
-de forma a conseguir a dispensa desta disciplina caso tenha um resultado
- excelente na avaliação.
+.
 \end_layout
 
 \begin_layout Section
@@ -423,6 +428,322 @@ Uso de calculadoras científicas e alfa-numéricas.
 
 \begin_layout Itemize
 Como fazer uma prova com consulta.
+\end_layout
+
+\begin_layout Itemize
+Propostas de como estudar.
+\end_layout
+
+\begin_layout Section
+Frases de Orientação
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Frases-de-Orientação"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Muitas das frases abaixo foram retiradas de 
+\emph on
+Centelhas de Luz (2000).
+\end_layout
+
+\begin_layout Subsection
+Sobre a educação
+\end_layout
+
+\begin_layout Quotation
+
+\emph on
+\begin_inset Quotes eld
+\end_inset
+
+Educar:
+\end_layout
+
+\begin_deeper
+\begin_layout Quotation
+
+\emph on
+arte de contruir futuro com a inteligência do coração.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+setlength{
+\backslash
+parskip}{
+\backslash
+bigskipamount} 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+O educador
+\end_layout
+
+\begin_layout Standard
+Doçura, discrição, perseverança: eis as armas de um educador.
+\end_layout
+
+\begin_layout Standard
+Educar é arte do coração.
+\end_layout
+
+\begin_layout Standard
+Os educadores pensem que assumem não somente o cuidado da mente dos alunos,
+ mas também do espírito e do coração, coisa assaz delicada, por isso devem
+ revestir-se de Jesus Cristo.
+\end_layout
+
+\begin_layout Standard
+Para um educador, os alunos estão acima de todos os seus pensamentos e de
+ todos os seus afetos.
+\end_layout
+
+\begin_layout Standard
+Se tens a tarefa de ensinar e não continuas a cultivar o estudo, és como
+ um cego que pretende ser guia de outro cego.
+\end_layout
+
+\begin_layout Standard
+Um bom educador vê tudo, corrige pouco, castiga pouquíssimo.
+\end_layout
+
+\begin_layout Standard
+Pode-se considerar educador eficaz aquele que, à inteligência e à preparação,
+ associa a paixão de conduzir os alunos ao próprio aperfeiçoamento.
+\end_layout
+
+\begin_layout Standard
+Os professores educam se tiverem amor pelos alunos.
+\end_layout
+
+\begin_layout Standard
+O aluno deve ser, antes de tudo, intruído acerca dos seus deveres, se depois
+ ele não os cumpre, é necessário exortá-lo com parternas advertências.
+\end_layout
+
+\begin_layout Standard
+Como São José, também vós sereis agradáveis a Deus pelos cuidados que prestarde
+ às crianças e aos jovens, que são tão queridos ao seu Coração.
+\end_layout
+
+\begin_layout Standard
+A virtude distintiva de um educador é, sem sombra de dúvida, a paciência.
+\end_layout
+
+\begin_layout Standard
+O educador convie com seus alunos, por isso, deve ser modelo de virtude
+ e de relacionamento cordial.
+\end_layout
+
+\begin_layout Standard
+O educador procure exigir de cada aluno o que corresponde melhor às suas
+ atitudes.
+\end_layout
+
+\begin_layout Standard
+Pode-se dizer que uma pessoa é educada se nela amadureceu uma reta conscieência
+ moral.
+\end_layout
+
+\begin_layout Subsection
+O aluno
+\end_layout
+
+\begin_layout Standard
+Desde o tempo da escola, aprende-se a viver a cidadania, a assumir responsabilid
+ade, a tratar as pessoas com cortesia.
+\end_layout
+
+\begin_layout Standard
+Para um aluno, dedicar-se ao estudo é uma obrigação da própria condição.
+\end_layout
+
+\begin_layout Standard
+O futuro está em tuas mãos: com propósitos firmes poderás construí-lo sólido.
+\end_layout
+
+\begin_layout Standard
+O estudo não é um exercício pesado, mas um meio oportuno para construir
+ o futuro.
+\end_layout
+
+\begin_layout Standard
+Dedique-se ao estudo não por constrangimento, mas como ao seu dever de hoje.
+\end_layout
+
+\begin_layout Standard
+Hoje, na escola, você se prepara para ser o cidadão de amanhã.
+\end_layout
+
+\begin_layout Subsection
+Os pais
+\end_layout
+
+\begin_layout Standard
+Com o exemplo e com o amor os pais educam, vigiam, corrigem.
+\end_layout
+
+\begin_layout Standard
+É tarefa dos pais ensinar, vigiar, corrigir e confirmar com o exemplo, as
+ suas palavras.
+\end_layout
+
+\begin_layout Standard
+Corrigr os filhos pode parecer uma crueldade.
+ É crueldade, ao invés, deixar que se desenvolvam neles as más inclinações.
+\end_layout
+
+\begin_layout Subsection
+O estilo de educar
+\end_layout
+
+\begin_layout Standard
+Na ação educativa é importante temperar doçura com firmeza.
+\end_layout
+
+\begin_layout Standard
+As maneiras pacientes, afetuosas e persuasivas educam facilmente e, portanto,
+ raramente haverá necessidade de punição.
+\end_layout
+
+\begin_layout Standard
+Ao corrigir é necessário usar firmeza, porém, temperada com a discrição.
+\end_layout
+
+\begin_layout Standard
+A correção será eficaz somente quando feita com tranquilidade e serenidade,
+ de outra forma, terá o efeito de irritar os corações sem nenhum proveito.
+\end_layout
+
+\begin_layout Standard
+Para corrigir uma aluna basta, às vezes, demonstrar tristeza por tudo quanto
+ tenha acontecido.
+\end_layout
+
+\begin_layout Standard
+Se o educador associa doçura e competência, não é necessário o castigo.
+\end_layout
+
+\begin_layout Standard
+Quando o educador se irrita com um defeito ou uma falha ade um aluno, antes
+ de corrigi-lo, deve procurar tranquilizar-se.
+\end_layout
+
+\begin_layout Standard
+Somente depois de haver tentado o caminho da persuasão e da ad vertência
+ é que se poderá recorrer à correção.
+\end_layout
+
+\begin_layout Subsection
+As instituições educativas
+\end_layout
+
+\begin_layout Standard
+Um País que deseja cidadãos bem formados e responsáveis investe muito na
+ educação.
+\end_layout
+
+\begin_layout Standard
+O objetivo principal de uma escola é a educação da mente e do coração dos
+ alunos.
+\end_layout
+
+\begin_layout Standard
+Nos educandários deve-se estabelecer um programa de vida apto a tornar suave
+ e agradável a estadia dos alunos.
+\end_layout
+
+\begin_layout Standard
+Ao diretor de uma escola compete assegurar a unidade didática e pedagógica
+ e o objetivo educativo.
+ É seu dever agir conforme os estatutos.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Interiorização para o aprendizado
+\end_layout
+
+\begin_layout Standard
+Propostas a fim de orientar o aluno a interiorizar o aprendizado:
+\end_layout
+
+\begin_layout Itemize
+Propostas de conduta para reflexão pequena com olhos fechados:
+\end_layout
+
+\begin_layout Quotation
+
+\emph on
+\begin_inset Quotes eld
+\end_inset
+
+Vocês querem experimentar?
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Ouvir o coração.
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Referências
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-1"
+
+\end_inset
+
+Instituto das Filhas de São José.
+ 
+\emph on
+Centelhas de luz -- pensamentos do Padre Luís Caburlotto.
+
+\emph default
+ Santo André, Província Sagrada Família: Instituto das Filhas de São José,
+ 2000.
 \end_layout
 
 \end_body
